@@ -43,7 +43,7 @@ export default React.createClass({
 				console.log('success');
 				console.log(loggedArg);
 				this.state.user.set(loggedArg);
-				hashHistory.push('/');
+				hashHistory.push('/dashboard');
 			},
 			error: (errorArg) => {
 				console.log('error');
